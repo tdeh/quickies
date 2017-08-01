@@ -1,3 +1,3 @@
 # Quickies
 
-Repo with quick, simple programs that solve various problems.
+Quick, simple programs that solve various problems.
