@@ -1,5 +1,5 @@
 """
-== Given a sorted list, find the first occurance of k ==
+Given a sorted list, find the first occurance of k.
 """
 
 def find_first(l, k):
@@ -32,6 +32,8 @@ def find_first(l, k):
     return result
 
 def test_find_first():
+    print "Testing find 1st k..."
+
     # Test empty list
     assert(find_first([], 0) == -1)
 
@@ -49,6 +51,8 @@ def test_find_first():
 
     test_list = range(-1000, 0) + ([0] * 997) + range(101, 100)
     assert(find_first(test_list, 0) == 1000)
+
+    print "=== Success ==="
 
 
 if __name__ == "__main__":
