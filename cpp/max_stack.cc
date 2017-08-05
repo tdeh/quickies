@@ -92,7 +92,7 @@ void TestMaxStack() {
     } catch (std::length_error) {
         // Do nothing
     }
-    std::cout << "  Success" << std::endl;
+    std::cout << "=== Success ===" << std::endl;
 
     // Test single element
     std::cout << "Testing single element..." << std::endl;
@@ -113,7 +113,7 @@ void TestMaxStack() {
     } catch (std::length_error) {
         // Do nothing
     }
-    std::cout << "  Success" << std::endl;
+    std::cout << "=== Success ===" << std::endl;
 
     // Test incrementing values
     std::cout << "Testing incrementing values..." << std::endl;
@@ -124,7 +124,7 @@ void TestMaxStack() {
         assert(test_stack.GetMax() == 15 - i - 1);
         assert(test_stack.Pop() == 15 - i - 1);
     }
-    std::cout << "  Success" << std::endl;
+    std::cout << "=== Success ===" << std::endl;
 
     // Test decrementing values
     std::cout << "Testing decrementing values..." << std::endl;
@@ -135,7 +135,7 @@ void TestMaxStack() {
         assert(test_stack.GetMax() == 15);
         assert(test_stack.Pop() == 15 - i);
     }
-    std::cout << "  Success" << std::endl;
+    std::cout << "=== Success ===" << std::endl;
 
     // Test mixed values
     std::cout << "Testing mixed values..." << std::endl;
@@ -164,7 +164,7 @@ void TestMaxStack() {
     assert(test_stack.Pop() == 10);
     assert(test_stack.GetMax() == 20);
     assert(test_stack.Pop() == 20);
-    std::cout << "  Success" << std::endl;
+    std::cout << "=== Success ===" << std::endl;
 }
 
 
